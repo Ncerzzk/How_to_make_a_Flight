@@ -8,7 +8,28 @@
 	\author{北京邮电大学 机器人队}
 	\tableofcontents
 	\pagebreak
-	
+\section{前言}
+\subsection{本文适用人群}
+
+\begin{enumerate}
+	\item 不满足于上层软件设计，想弄清硬件运行原理的DIY爱好者
+	\item 对电子技术、软件编程感兴趣而不知从何入手
+	\item 有意向参加机器人、智能车等软硬综合比赛
+	\item 机器人爱好者、模型（航模、车模）爱好者
+\end{enumerate}
+本文主要面向北京邮电大学大一、大二学生，作为北邮机器人队预备队的教程，当然也欢迎其他爱好者参考。
+
+\subsection{本文主要内容}
+\begin{enumerate}
+	\item 飞行器相关介绍
+	\item 常见电子执行器件（电机、舵机）及其驱动方式介绍
+	\item PCB设计（原理图设计及Layout）
+	\item 使用STM32QubeMX根据分配的引脚功能生成工程
+	\item 单片机编程
+\end{enumerate}
+
+需要注意的是，有些内容与我们整个训练关系不大，会简略跳过，有兴趣的同学请自行对相关关键词进行搜索。同时，软件的安装等也无法很详尽地说明，如果大家对有些软件的安装有所疑问，请配合搜索引擎。
+
 \section{预备知识}
 \subsection{无人机、航模}
 除了军用无人机，生活中我们所提及的无人机及航模的概念实际上非常接近。目前也没有明确的概念来区分二者，因此本文中不区分这两者概念，统一称为“飞行器”。
@@ -130,8 +151,55 @@ Alitum Designer是一个简单的PCB设计软件。设计PCB的一般流程是�
 
 蓝牙遥控（需要一个USART串口）
 
-\subsection{生成工程}
+\subsection{使用STM32QubeMX帮我们配置初始工程}
+新建工程，搜索我们要的芯片型号：STM32F103C8T等，可以仅输入到F103，具体的型号可以再选择。
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.3]{Qube界面.jpg}
+	\caption{STM32QubeMX芯片选择界面}
+	\label{fig:label}
+\end{figure}
 
+首先,配置晶振。晶振产生的时钟信号是整个单片机的时钟来源（虽然很多单片机都有内部振荡器，当没有外部晶振时可以作为替代，但精度等都比不上外部晶振）。
+
+点击Pin\_Out-RCC-High Speed Clock中，选择crystal，即表示我们使用外部晶振。
+在Clock Configuration 中，输入Input frequence 为8M,并在HCLK中输入72M，然后按回车，软件会自动帮我们选择合适的倍频系数等等。
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.3]{时钟配置.jpg}
+	\caption{时钟配置}
+	\label{fig:label}
+\end{figure}
+
+接下来配置我们要使用的引脚，需要注意的是，有些引脚是不能用的（或者说用了之后会非常麻烦），比如说晶振引脚、下载引脚、调试引脚等，这些引脚最好不要使用。
+
+我们要输出两种频率的PWM波，显然需要两个定时器。至于选用哪个定时器，如果没有特殊情况，应该是在PCB设计时候就决定了（即用哪个定时器好走线）。
+
+因此，我们决定使用TIM4作为空心杯电机的驱动信号（频率8K），TIM1作为舵机的驱动信号（频率50）。由于有两个空心杯电机和两个舵机，每个定时器都使用两个通道(Channel)
+
+配置定时器，在Pin\_Out中，选择TIMn，然后选择我们要使用的通道,选择PWM generation Chn。
+这里只是配置了定时器的引脚，关于定时器的频率、PWM占空比等设置，在Configuration中，Control分栏下面，会有各个定时器。双击定时器，即出现参数设置。
+我们要设置的参数仅有几个，Prescaler（预分频系数)、Counter\_Period(自动装载值，字面上理解是定时器周期)，以及每个通道的Pulse。
+其中，预分频系数与自动装载值决定了该定时器所有通道PWM的频率，每个通道的Pulse决定了该通道的占空比。
+
+频率计算公式为：
+\begin{equation}
+f_o=F/((pre+1) * count\_period)
+\end{equation}
+F为定时器信号源频率，如果前面按照我说的那样配置时钟的话，那么F=72M。因此，如果我们要使频率为50HZ，参数可取：pre=71,count\_period=20000
+频率为8K的参数请大家自行计算。
+
+占空比计算公式为：
+\begin{equation}
+duty=pulse/count\_priod*100\%
+\end{equation}
+
+因为我们是通过改变占空比来实现调速的，因此实际上这个Pulse初值可以不用管，设为0就行了。
+
+接下来配置串口。
+点击Pin\_Out ，选择PCB设计已经选好的串口，如USART2，模式选择异步（asynchronous）。
+然后设置USART2的参数，默认波特率就是115200，因此不必修改了。
 
 
 \end{document}
