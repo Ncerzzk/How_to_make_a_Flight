@@ -1,0 +1,26 @@
+Added Component: Designator=P6(HDR1X3_2.54_180)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VBAT Pin=P6-2
+Added Pin To Net: NetName=PGND Pin=P6-3
+Added Pin To Net: NetName=ADC Pin=STM1-15
+Added Pin To Net: NetName=CH2 Pin=STM1-30
+Added Pin To Net: NetName=CH3 Pin=Mos2-G
+Added Pin To Net: NetName=CH3 Pin=R15-1
+Added Pin To Net: NetName=CH3 Pin=STM1-31
+Added Net: Name=CH3
+Added Pin To Net: NetName=RX Pin=P5-2
+Added Pin To Net: NetName=RX Pin=STM1-13
+Added Net: Name=RX
+Added Pin To Net: NetName=TIM3_CH2 Pin=P6-1
+Added Pin To Net: NetName=TIM3_CH2 Pin=STM1-17
+Added Net: Name=TIM3_CH2
+Added Pin To Net: NetName=TIM3_CH3 Pin=P2-1
+Added Pin To Net: NetName=TIM3_CH3 Pin=STM1-18
+Added Net: Name=TIM3_CH3
+Added Pin To Net: NetName=TIM3_CH4 Pin=P1-1
+Added Pin To Net: NetName=TIM3_CH4 Pin=STM1-19
+Added Net: Name=TIM3_CH4
+Added Pin To Net: NetName=TX Pin=P5-1
+Added Pin To Net: NetName=TX Pin=STM1-12
+Added Net: Name=TX
+Added Member To Class: ClassName=micro_flight Member=Component P6 HDR1x3_2.54

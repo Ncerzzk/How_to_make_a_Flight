@@ -1,0 +1,5 @@
+Added Component: Designator=BAT(HDR1X2_2.54_90)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VBAT Pin=BAT-1
+Added Pin To Net: NetName=BGND Pin=BAT-2
+Added Member To Class: ClassName=micro_flight Member=Component BAT HDR1x2_2.54

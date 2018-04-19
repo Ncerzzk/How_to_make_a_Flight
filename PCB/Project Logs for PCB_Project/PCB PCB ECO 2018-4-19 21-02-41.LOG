@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetPW1_1 Pin=R3-1
+Removed Pin From Net: NetName=BGND Pin=R3-2
+Change Component Footprint: Designator=R1 Old Footprint=RES_0603 New Footprint=RES_0805
+Change Component Footprint: Designator=R3 Old Footprint=RES_0603 New Footprint=RES_0805
+Change Component Comment : Designator=R1 Old Comment=Res_0603 New Comment=Res_0805
+Change Component Comment : Designator=R3 Old Comment=Res_0603 New Comment=Res_0805
+Added Pin To Net: NetName=BGND Pin=R3-1
+Added Pin To Net: NetName=NetPW1_1 Pin=R3-2
