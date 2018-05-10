@@ -62,8 +62,21 @@
 \end{figure}
 
 无刷电机，是航模的主要动力，动力强劲，重量也比一般的有刷电机（除了空心杯）轻很多。无刷电机的驱动较为复杂，因为无刷电机内部没有一种叫做“电刷”的东西，因此得通过外部进行电流的换向。驱动无刷电机不能直接在两端施加电压，而应外接一个叫做“电子调速器”的东西，俗称电调。通过改变输给电调信号的“脉宽”（即高电平宽度），来实现无刷电机的调速。
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.2]{无刷.jpg}
+	\caption{航模无刷电机}
+	\label{fig:label}
+\end{figure}
 
 舵机，是航模上控制舵面（ 升降舵、副翼、方向舵）的主要元件。舵机内部包含了简单的控制电路，对舵机输入一定的“脉宽”，即可使舵机转动到相应位置。
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.2]{舵机.jpg}
+	\caption{舵机}
+	\label{fig:label}
+\end{figure}
 
 \section{材料清单}
 下面列出制作一个微型固定翼飞行器所需要的清单，出于训练的目的，飞行器的电路板及程序都由我们自己设计及编写。
@@ -88,10 +101,24 @@
 Alitum Designer是一个简单的PCB设计软件。设计PCB的一般流程是通过在原理图定义各个网络名及其连接，接着在PCB文件中通过走线将各个元件实际上连接起来。
 该软件可以在BT上下载。
 
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.25]{AD界面.jpg}
+	\caption{AD原理图设计界面}
+	\label{fig:label}
+\end{figure}
+
 \subsection{单片机最小系统设计}
 所谓单片机的最小系统，即指能使单片机运行起来的最小单元，一般包含给单片供电的电源电路、程序下载及调试电路、晶振电路、复位电路，及相应的LED提示电路等。
 
 需要注意的是，这里设计了一些接在3.3V与GND之间的电容，目的就是对电源进行滤波，以防止电源波动较大，对程序运行产生影响。这些电容也叫做去耦电容。
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{最小系统.jpg}
+	\caption{最小系统设计}
+	\label{fig:label}
+\end{figure}
 
 \subsection{电机驱动电路设计}
 因为本飞行器使用的是空心杯电机，前面提到，控制空心杯的方式非常简单，只要改变电压即可调速。而在电路上设计一个可控的电压源是比较麻烦的是，因此我们用另一个办法来等效改变电压。如图：
@@ -114,16 +141,37 @@ Alitum Designer是一个简单的PCB设计软件。设计PCB的一般流程是�
 
 需要注意的是，控制舵机的电流不是由单片机产生的，不要想当然的认为是单片机的高电平驱动了舵机。单片机只提供了一个信号给舵机自己的控制电路。
 
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.4]{舵机驱动电路.jpg}
+	\caption{舵机驱动电路}
+	\label{fig:label}
+\end{figure}
+
 \subsection{通信电路设计}
 通信部分我们使用一个蓝牙串口，较为简单。实际上更为常用的是使用NRF24L01等无线射频芯片来达到较为远距离的传输。但出于设计简单考虑，我们还是选择蓝牙。
 
 蓝牙的电路参考说明手册进行连接即可，需要注意的是，蓝牙的RX需接单片机串口的TX，蓝牙的TX需接单片机的RX，接反会无法接受数据。（普通的串口接法）
 
+使用的HC05蓝牙模块需要稳定的5V电压来供电，而一节锂电池最高仅有4.2V，如果直接用锂电池的电压给蓝牙供电，当电流较大时候，会拉低电池电压，导致蓝牙死机。因此这里设计了一个5V升压电路来给蓝牙供电。
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.4]{蓝牙电路.jpg}
+	\caption{蓝牙及5V升压电路}
+	\label{fig:label}
+\end{figure}
+
 \subsection{电源部分设计}
 单片机及传感器一般使用的电压为3.3V，因此我们需要一个3.7V降为3.3V的电路。一般使用LDO(线性稳压器，与之相对的是开关稳压器，感兴趣的同学可以去查查)。
 
 处于体积考虑，我们选择了sot23-6封装的RT9193，引脚连接参考官方手册。
-
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.4]{电源电路.jpg}
+	\caption{单片机电源电路}
+	\label{fig:label}
+\end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.4]{rt9193.jpg}
@@ -143,6 +191,34 @@ Alitum Designer是一个简单的PCB设计软件。设计PCB的一般流程是�
 
 \section{编写控制程序}
 \subsection{STM32QubeMX简介}
+STM32CubeMX是一个图形化的工具，也是配置和初始化C代码生成器（STM32 configuration and initialization C code generation），也就是自动生成开发初期关于芯片相关的一些初始化代码。
+
+从上图可以看得出，它包含了STM32所有系列的芯片，包含示例和样本（Examples and demos）、中间组件（Middleware Components）、硬件抽象层（Hardwaree abstraction layer）。
+
+STM32CubeMX的特性如下：
+\begin{enumerate}
+\item 直观的选择 STM32 微控制器。
+
+\item 微控制器图形化配置：
+\begin{enumerate}
+	\item 自动处理引脚冲突
+	\item 动态设置确定的时钟树
+	
+	\item 可以动态确定参数设置的外围和中间件模式和初始化
+	
+	\item 功耗预测
+\end{enumerate}
+
+\item C代码工程生成器覆盖了STM32 微控制器初始化编译软件，如IAR、KEIL、GCC。
+
+\item 可独立使用或作为 Eclipse 插件使用。
+
+\end{enumerate}
+
+
+
+
+STM32CubeMX是ST意法半导体的主动原创工具，它可以减轻开发的时间和费用。STM32CubeMX集成了一个全面的软件平台，支持STM32每一个系列的MCU开发。这个平台包括 STM32Cube HAL（一个 STM32 的抽象层集成软件，确保STM32 系列最大的移植性）。再加上兼容的一套中间件（RTOS、USB、TCP/IP 和图形），所有内嵌软件组件附带了全套例程。
 \subsection{要实现的功能概览}
 作为一个飞行器，首先肯定要能驱动飞行器上的电机、舵机等，同时要能接受远程控制的信息，对遥控指令进行响应。
 

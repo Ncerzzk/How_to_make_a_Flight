@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2018.3.14)  17 APR 2018 12:07
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2018.3.15)  10 MAY 2018 22:56
 entering extended mode
 **微型飞行器制作.tex
-(D:\电路板\book\How_to_make_a_Flight\微型飞行器制作.tex
+(C:\Users\ncer\Desktop\code\飞行器制作\微型飞行器制作.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(D:\CTEX\MiKTeX\tex\latex\base\article.cls
+(E:\CTEX\MiKTeX\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(D:\CTEX\MiKTeX\tex\latex\base\size10.clo
+(E:\CTEX\MiKTeX\tex\latex\base\size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -21,64 +21,64 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(D:\CTEX\MiKTeX\tex\latex\ctex\ctexcap.sty
+(E:\CTEX\MiKTeX\tex\latex\ctex\ctexcap.sty
 Package: ctexcap 2011/03/11 v1.02c ctexcap macros package
 
-(D:\CTEX\MiKTeX\tex\latex\ctex\opt\ctex-common-opts.def)
-(D:\CTEX\MiKTeX\tex\latex\ctex\opt\ctex-caption-opts.def
+(E:\CTEX\MiKTeX\tex\latex\ctex\opt\ctex-common-opts.def)
+(E:\CTEX\MiKTeX\tex\latex\ctex\opt\ctex-caption-opts.def
 \c@CTEX@sectiondepth=\count88
 )
-(D:\CTEX\CTeX\tex\latex\ctex\cfg\ctexopts.cfg)
-(D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-common.def
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\expl3.sty
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3names.sty
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3bootstrap.sty
+(E:\CTEX\CTeX\tex\latex\ctex\cfg\ctexopts.cfg)
+(E:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-common.def
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\expl3.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3names.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3bootstrap.sty
 Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
 )
 Package: l3names 2011/12/30 v3113 L3 Experimental namespace for primitives
 )
-(D:\CTEX\MiKTeX\tex\latex\misc\etex.sty
+(E:\CTEX\MiKTeX\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count89
 )
 Package: expl3 2012/02/26 v3471 L3 Experimental code bundle wrapper
 
-(D:\CTEX\MiKTeX\tex\latex\graphics\color.sty
+(E:\CTEX\MiKTeX\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(D:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+(E:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: xetex.def on input line 130.
 
-(D:\CTEX\MiKTeX\tex\xelatex\xetex-def\xetex.def
+(E:\CTEX\MiKTeX\tex\xelatex\xetex-def\xetex.def
 File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
 
 ))
-(D:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+(E:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(D:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+(E:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(D:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+(E:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: xetex.def on input line 91.
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3basics.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3basics.sty
 Package: l3basics 2012/02/26 v3460 L3 Experimental basic definitions
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3expan.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3expan.sty
 Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3tl.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3tl.sty
 Package: l3tl 2012/02/26 v3460 L3 Experimental token lists
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3seq.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3seq.sty
 Package: l3seq 2012/01/09 v3158 L3 Experimental sequences and stacks
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3int.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3int.sty
 Package: l3int 2012/02/26 v3460 L3 Experimental integers
 \c_max_int=\count90
 \l_tmpa_int=\count91
@@ -87,26 +87,26 @@ Package: l3int 2012/02/26 v3460 L3 Experimental integers
 \g_tmpa_int=\count94
 \g_tmpb_int=\count95
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3quark.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3quark.sty
 Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3prg.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3prg.sty
 Package: l3prg 2012/02/26 v3464 L3 Experimental control structures
 \g_prg_map_int=\count96
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3clist.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3clist.sty
 Package: l3clist 2012/02/26 v3460 L3 Experimental comma separated lists
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3token.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3token.sty
 Package: l3token 2012/02/26 v3460 L3 Experimental token manipulation
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3prop.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3prop.sty
 Package: l3prop 2012/02/26 v3460 L3 Experimental property lists
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3msg.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3msg.sty
 Package: l3msg 2012/02/26 v3470 L3 Experimental messages
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3file.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3file.sty
 Package: l3file 2012/02/26 v3464 L3 Experimental file and I/O operations
 \l_iow_stream_int=\count97
 \l_iow_line_length_int=\count98
@@ -115,7 +115,7 @@ Package: l3file 2012/02/26 v3464 L3 Experimental file and I/O operations
 \l_iow_current_word_int=\count101
 \l_iow_current_indentation_int=\count102
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3skip.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3skip.sty
 Package: l3skip 2012/02/26 v3460 L3 Experimental dimensions and skips
 \l_tmpa_dim=\dimen103
 \l_tmpb_dim=\dimen104
@@ -128,12 +128,12 @@ Package: l3skip 2012/02/26 v3460 L3 Experimental dimensions and skips
 \g_tmpa_skip=\skip46
 \g_tmpb_skip=\skip47
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3keys.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3keys.sty
 Package: l3keys 2011/12/22 v3086 L3 Experimental key-value interfaces
 \g_keyval_level_int=\count103
 \l_keys_choice_int=\count104
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3fp.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3fp.sty
 Package: l3fp 2012/02/06 v3315 L3 Experimental floating-point operations
 \c_one_hundred_million=\count105
 \c_five_hundred_million=\count106
@@ -189,7 +189,7 @@ Package: l3fp 2012/02/06 v3315 L3 Experimental floating-point operations
 \l_fp_internal_dim=\dimen108
 \l_fp_internal_skip=\skip48
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3box.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3box.sty
 Package: l3box 2012/02/18 v3432 L3 Experimental boxes
 \l_tmpb_box=\box26
 \l_box_top_dim=\dimen109
@@ -202,7 +202,7 @@ Package: l3box 2012/02/18 v3432 L3 Experimental boxes
 \l_box_right_new_dim=\dimen116
 \l_box_internal_box=\box27
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3coffins.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3coffins.sty
 Package: l3coffins 2012/02/26 v3460 L3 Experimental coffin code layer
 \l_coffin_internal_box=\box28
 \l_coffin_internal_dim=\dimen117
@@ -233,63 +233,63 @@ Package: l3coffins 2012/02/26 v3460 L3 Experimental coffin code layer
 \l_coffin_display_x_dim=\dimen136
 \l_coffin_display_y_dim=\dimen137
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3color.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3color.sty
 Package: l3color 2011/09/07 v2776 L3 Experimental colour support
 )
-(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3luatex.sty
+(E:\CTEX\MiKTeX\tex\latex\l3kernel\l3luatex.sty
 Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
 \g_cctab_allocate_int=\count156
 \g_cctab_stack_int=\count157
 ))
-(D:\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+(E:\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 \etb@tempcnta=\count158
 )
-(D:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
-(D:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+(E:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(D:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+(E:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(D:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+(E:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(D:\CTEX\MiKTeX\tex\latex\base\fix-cm.sty
+(E:\CTEX\MiKTeX\tex\latex\base\fix-cm.sty
 Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
 
-(D:\CTEX\MiKTeX\tex\latex\base\ts1enc.def
+(E:\CTEX\MiKTeX\tex\latex\base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
-(D:\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-xecjk-engine.def
-(D:\CTEX\MiKTeX\tex\latex\savesym\savesym.sty
+(E:\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-xecjk-engine.def
+(E:\CTEX\MiKTeX\tex\latex\savesym\savesym.sty
 
 LaTeX Warning: You have requested package `savesym',
                but the package provides `savesymbol'.
 
 Package: savesymbol 2003/06/01 v1.1 Saves and restores symbols
-) (D:\CTEX\MiKTeX\tex\xelatex\xecjk\xeCJK.sty
+) (E:\CTEX\MiKTeX\tex\xelatex\xecjk\xeCJK.sty
 Package: xeCJK 2012/01/31 2.4.5 package for typesetting CJK scripts with XeLaTe
 X
 
-(D:\CTEX\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+(E:\CTEX\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
-(D:\CTEX\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+(E:\CTEX\MiKTeX\tex\generic\xkeyval\xkeyval.tex
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
 \XKV@depth=\count159
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
-(D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.sty
+(E:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.sty
 Package: fontspec 2011/09/18 v2.2a Advanced font selection for XeLaTeX/LuaLaTeX
 
 
-(D:\CTEX\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+(E:\CTEX\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 Package: xparse 2012/02/26 v3471 L3 Experimental document command parser
 \l_xparse_current_arg_int=\count160
 \l_xparse_m_args_int=\count161
@@ -305,11 +305,11 @@ Package: xparse 2012/02/26 v3471 L3 Experimental document command parser
 \l_fontspec_tmpc_dim=\dimen140
 Variant \tl_gset:cV already defined; not changing it on line 66
 
-(D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-patches.sty
+(E:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-patches.sty
 Package: fontspec-patches 2011/09/18 v2.2a Advanced font selection for XeLaTeX/
 LuaLaTeX
 
-(D:\CTEX\MiKTeX\tex\latex\base\fixltx2e.sty
+(E:\CTEX\MiKTeX\tex\latex\base\fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 )
@@ -327,51 +327,51 @@ LaTeX Info: Redefining \- on input line 32.
 . 
 . Defining document command \liningnums with arg. spec. 'm' on line 111.
 .................................................
-) (D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+) (E:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
 Package: fontspec-xetex 2011/09/18 v2.2a Advanced font selection for XeLaTeX/Lu
 aLaTeX
 
-(D:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+(E:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(D:\CTEX\MiKTeX\tex\latex\euenc\eu1enc.def
+(E:\CTEX\MiKTeX\tex\latex\euenc\eu1enc.def
 File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
 )
 LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
 
 
-(D:\CTEX\MiKTeX\tex\latex\euenc\eu1lmr.fd
+(E:\CTEX\MiKTeX\tex\latex\euenc\eu1lmr.fd
 File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Requested font "[lmroman10-regular]:mapping=tex-text" at 10.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-regular.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-regular.otf
 )
-(D:\CTEX\MiKTeX\tex\xelatex\xunicode\xunicode.sty
+(E:\CTEX\MiKTeX\tex\xelatex\xunicode\xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
 other characters in Unicode lower plane
 
-(D:\CTEX\MiKTeX\tex\latex\tipa\t3enc.def
+(E:\CTEX\MiKTeX\tex\latex\tipa\t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmromanslant10-regular.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmromanslant10-regular.otf
 Requested font "[lmroman10-italic]:mapping=tex-text" at 10.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf
 Requested font "[lmroman10-bold]:mapping=tex-text" at 10.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-bold.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-bold.otf
 LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 .
 
-(D:\CTEX\MiKTeX\tex\latex\euenc\eu1lmss.fd
+(E:\CTEX\MiKTeX\tex\latex\euenc\eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Requested font "[lmsans10-regular]:mapping=tex-text" at 10.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmsans10-regular.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmsans10-regular.otf
 )
 \tipaTiiicode=\count168
 \tipasavetokens=\toks17
 \tipachecktokens=\toks18
 
-(D:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+(E:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
@@ -489,7 +489,7 @@ LaTeX Info: Redefining \slshape on input line 1885.
 LaTeX Info: Redefining \scshape on input line 1889.
 LaTeX Info: Redefining \upshape on input line 1893.
 
-(D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.cfg)))
+(E:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.cfg)))
 \xeCJK@cnta=\count170
 \xeCJK@cntb=\count171
 \xeCJK@cntc=\count172
@@ -503,14 +503,14 @@ LaTeX Info: Redefining \ttfamily on input line 903.
 \xeCJK@featureadded=\count175
 \g_xecjk_exspace_dim=\dimen144
 )
-(D:\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-cjk-common.def
-(D:\CTEX\CTeX\tex\latex\CJK\CJKfntef.sty
+(E:\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-cjk-common.def
+(E:\CTEX\CTeX\tex\latex\CJK\CJKfntef.sty
 Package: CJKfntef 2008/12/29 4.8.2
 
-(D:\CTEX\MiKTeX\tex\latex\cjk\CJKulem.sty
+(E:\CTEX\MiKTeX\tex\latex\cjk\CJKulem.sty
 Package: CJKulem 2008/12/29 4.8.2
 
-(D:\CTEX\MiKTeX\tex\latex\ulem\ulem.sty
+(E:\CTEX\MiKTeX\tex\latex\ulem\ulem.sty
 \UL@box=\box35
 \UL@hyphenbox=\box36
 \UL@skip=\skip49
@@ -536,17 +536,38 @@ Package: ulem 2011/03/18
 )
 \ccwd=\dimen151
 )
-(D:\CTEX\MiKTeX\tex\latex\ctex\fontset\ctex-xecjk-winfonts.def))
+(E:\CTEX\MiKTeX\tex\latex\ctex\fontset\ctex-xecjk-winfonts.def))
 \CTEX@q=\count178
 \CTEX@r=\count179
 )
-(D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-caption.def)
-(D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-article.def))
-(D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-utf8.def)
-(D:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctexcap.cfg
-(D:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctexcap-utf8.cfg))
-(D:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
-(D:\电路板\book\How_to_make_a_Flight\微型飞行器制作.aux
+(E:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-caption.def)
+(E:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-article.def))
+(E:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-utf8.def)
+(E:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctexcap.cfg
+(E:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctexcap-utf8.cfg))
+(E:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
+(C:\Users\ncer\Desktop\code\飞行器制作\微型飞行器制作.aux
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
 
 LaTeX Warning: Label `fig:label' multiply defined.
 
@@ -581,7 +602,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 7.
- (D:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+ (E:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -648,9 +669,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 7.
 Requested font "[lmroman12-regular]:mapping=tex-text" at 14.4pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
 Requested font "[lmroman12-bold]:mapping=tex-text" at 14.4pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
 Requested font "æ¥·ä½^^93" at 14.4pt
  -> C:/WINDOWS/Fonts/simkai.ttf
 Requested font "æ¥·ä½^^93/ICU" at 14.4pt
@@ -702,7 +723,7 @@ Requested font "æ¥·ä½^^93/ICU:mapping=tex-text;embolden=4;" at 14.4pt
 Requested font "æ¥·ä½^^93/ICU:mapping=tex-text;embolden=4;" at 14.4pt
  -> C:/WINDOWS/Fonts/simkai.ttf
 
-(D:\电路板\book\How_to_make_a_Flight\微型飞行器制作.toc
+(C:\Users\ncer\Desktop\code\飞行器制作\微型飞行器制作.toc
 Requested font "æ¥·ä½^^93" at 10.0pt
  -> C:/WINDOWS/Fonts/simkai.ttf
 Requested font "æ¥·ä½^^93/ICU" at 10.0pt
@@ -746,9 +767,9 @@ Requested font "æ¥·ä½^^93/ICU:mapping=tex-text;" at 10.0pt
 Requested font "æ¥·ä½^^93/ICU:mapping=tex-text;" at 10.0pt
  -> C:/WINDOWS/Fonts/simkai.ttf
 Requested font "[lmroman7-regular]:mapping=tex-text" at 7.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman7-regular.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman7-regular.otf
 Requested font "[lmroman5-regular]:mapping=tex-text" at 5.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman5-regular.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman5-regular.otf
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -783,9 +804,9 @@ Requested font "æ¥·ä½^^93/ICU:mapping=tex-text;" at 10.0pt
 
 ]
 Requested font "[lmroman12-regular]:mapping=tex-text" at 12.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
 Requested font "[lmroman12-bold]:mapping=tex-text" at 12.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
+ -> E:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
 Requested font "æ¥·ä½^^93" at 12.0pt
  -> C:/WINDOWS/Fonts/simkai.ttf
 Requested font "æ¥·ä½^^93/ICU" at 12.0pt
@@ -815,23 +836,46 @@ Overfull \hbox (10.5937pt too wide) in paragraph at lines 43--44
  []
 
 File: 空心杯.jpg Graphic file (type QTm)
-<use  "空心杯.jpg" > [3] [4]
+<use  "空心杯.jpg" > [3]
+File: 无刷.jpg Graphic file (type QTm)
+ <use  "无刷.jpg" > [4]
+File: 舵机.jpg Graphic file (type QTm)
+ <use  "舵机.jpg" >
+[5]
+File: AD界面.jpg Graphic file (type QTm)
+ <use  "AD界面.jpg" >
+Overfull \hbox (16.24911pt too wide) in paragraph at lines 106--107
+ [][] 
+ []
+
+File: 最小系统.jpg Graphic file (type QTm)
+<use  "最小系统.jpg" >
+Overfull \hbox (4.99915pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
 File: mos.jpg Graphic file (type QTm)
- <use  "mos.jpg" > [5] [6]
+<use  "mos.jpg" > [6] [7]
+File: 舵机驱动电路.jpg Graphic file (type QTm)
+ <use  "舵机驱动电路.jpg" >
+File: 蓝牙电路.jpg Graphic file (type QTm)
+ <use  "蓝牙电路.jpg" > [8]
+File: 电源电路.jpg Graphic file (type QTm)
+ <use  "电源电路.jpg" >
 File: rt9193.jpg Graphic file (type QTm)
- <use  "rt9193.jpg" >
-[7]
+ <use  "rt9193.jpg" > [9] [10]
 File: Qube界面.jpg Graphic file (type QTm)
- <use  "Qube界面.jpg" > [8]
+
+<use  "Qube界面.jpg" > [11]
 File: 时钟配置.jpg Graphic file (type QTm)
- <use  "时钟配置.jpg" > [9]
-Overfull \hbox (27.05978pt too wide) in paragraph at lines 189--192
+ <use  "时钟配置.jpg" > [12]
+Overfull \hbox (27.05978pt too wide) in paragraph at lines 265--268
 \EU1/lmr/m/n/10 F=72M\xeCJK@rm/m/sl/10 。| 因 此，| 如 果 我 们 要 使
  频 率 为 \EU1/lmr/m/n/10 50HZ\xeCJK@rm/m/sl/10 ，| 参 数 可 取：| \EU
 1/lmr/m/n/10 pre=71,count_period=20000
  []
 
-[10] (D:\电路板\book\How_to_make_a_Flight\微型飞行器制作.aux)
+[13] (C:\Users\ncer\Desktop\code\飞行器制作\微型飞行器制作.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -840,12 +884,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15010 strings out of 430478
- 317165 string characters out of 3191502
- 318053 words of memory out of 3000000
- 17971 multiletter control sequences out of 15000+200000
+ 15027 strings out of 430478
+ 317315 string characters out of 3191502
+ 316055 words of memory out of 3000000
+ 17981 multiletter control sequences out of 15000+200000
  3914 words of font info for 36 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,8n,41p,838b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 微型飞行器制作.pdf (10 pages).
+Output written on 微型飞行器制作.pdf (13 pages).
